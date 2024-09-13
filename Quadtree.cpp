@@ -1,5 +1,4 @@
 #include "Quadtree.h"
-#include "RoadActor.h"
 
 FQuadtree::FQuadtree(const FBox2D& WorldBounds, int32 InMaxSplinesPerNode, int32 InMaxDepth)
     : MaxSplinesPerNode(InMaxSplinesPerNode), MaxDepth(InMaxDepth)
